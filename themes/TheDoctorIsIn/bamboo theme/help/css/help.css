@@ -1,0 +1,149 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+body {
+	font: 14px Tahoma, sans-serif;
+	color: #333;
+	line-height: 20px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+ol, ul {
+	list-style: none;
+}
+
+p {
+	margin-bottom: 10px;
+	line-height: 20px;
+}
+pre {
+	color: #999;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+	padding: 20px;
+	margin-bottom: 1px;
+	color: #FFFFFF;
+	background: #333;
+}
+.header h1 {
+	font-size: 25px;
+	font-weight: 400;
+}
+.header p {
+	margin-bottom: 0;
+}
+.header a {
+	color: #aaa;
+}
+.header a:hover {
+	color: #fff;
+}
+
+.content h4 {
+	font-size: 18px;
+	font-weight: 900;
+	margin-bottom: 15px;
+}
+
+.content ol {
+    list-style-type: decimal;
+    margin-left: 30px;
+}
+.content h3.ui-accordion-header {
+	padding: 7px 30px;
+	margin-bottom: 1px;
+	background: #999 ;
+	cursor: pointer;
+}
+
+.content h3.ui-accordion-header a {
+color: #fff;
+font-size: 16px;
+}
+
+.content h3.ui-accordion-header a:hover {
+	text-decoration: none;
+}
+
+.content h3.ui-accordion-header.ui-state-active {
+	font-weight: 400;
+	background: #777;
+}
+
+
+
+.ui-accordion-content {
+	padding: 20px;
+	background: #fff;
+}
+
+.ui-accordion-content a {
+color: #67856d;
+text-decoration: underline;
+}
+
+.ui-accordion-content a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+
+.ui-accordion-content img.fL {
+margin: 0px 10px 10px 0px;
+float: left;
+}
+
+.ui-accordion-content img.fR {
+margin: 0px 0px 10px 10px;
+float: right;
+}
+	
+.ui-accordion-content .colorize {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+
+html[xmlns] .ui-accordion-content {
+	display: block;
+}
+ 
+* html .ui-accordion-content {
+	height: 1%;
+}
+
+.ui-accordion-content {
+	display: inline-block;
+}
+
+.ui-accordion-content:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}

@@ -1,0 +1,71 @@
+/* == Backgrounds == */
+body {
+	background: url(../images/wood/mainbg.jpg);
+}
+#main_top {
+	background: url(../images/wood/bodybg.jpg) repeat-x;
+}
+#header {
+	background: url(../images/wood/maintopbg.png) no-repeat;
+}
+#footer {
+	background: url(../images/wood/mainbotbg.png) no-repeat;
+}
+#content {
+	background: url(../images/wood/mainmidbg.png) repeat-y;
+}
+#index_articles {
+	background: url(../images/wood/slider_post.jpg) no-repeat;
+}	
+#showcase{
+	background: url(../images/wood/sliderbg.jpg) repeat-x;
+}	
+
+
+/* == Icons and buttons == */
+.bu {
+	background: url(../images/wood/ic_search.gif) no-repeat;
+}
+.rss {
+	background: url(../images/wood/ic_rss.gif) no-repeat;
+}
+#prevBtn a, #nextBtn a{  
+	background:url(../images/wood/btn_prev.png) no-repeat 0 0;	
+}	
+#nextBtn a{ 
+	background:url(../images/wood/btn_next.png) no-repeat 0 0;	
+}
+
+
+/* == Navigation == */
+.sf-menu a {
+	color: #b5afa7;
+	background: #4f3d2c;
+}
+.sf-menu a:hover, .sf-menu li.current_page_item a, .sf-menu li.current-cat a, .sf-menu li li a {
+	background: #31281e;
+	color: #b5afa7;
+}
+.sf-menu li li a:hover {
+	background: #241c14;
+}
+
+
+
+/* == Footer == */
+#footer, #copyright, #powered {
+	color: #91867b;
+}
+#footer a, #powered a {
+	color: #b1a9a1;
+}
+
+
+
+
+a {
+	color: #63462b;
+}
+#biglinks li.current_page_item li a {
+    color: #63462b;
+}

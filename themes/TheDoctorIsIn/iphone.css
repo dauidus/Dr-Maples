@@ -1,0 +1,39 @@
+
+.sf-menu a {
+	font-family: 'WinterthurCondensedRegular';
+	display:		block;
+	position:		relative;
+	font-size: 22px;
+	font-weight:600;
+	padding: 6px 12px 10px 12px;
+	text-align:center;
+	text-decoration: none;
+	margin: 0 4px 0 0;
+	display: block;
+	line-height: 20px;
+	color: #fff;
+	background: url(images/menubg.png);
+	height:36px;
+	/* More options in folder "CSS" */
+}
+
+.nav_tl {
+	position:absolute; 
+	top:0px; 
+	left:0;
+}
+.nav_tr {
+	position:absolute; 
+	top:0; 
+	right:4px;
+}
+.nav_bl {
+	position:absolute; 
+	bottom:0; 
+	left:0px;
+}
+.nav_br {
+	position:absolute; 
+	bottom:0; 
+	right:4px;
+}

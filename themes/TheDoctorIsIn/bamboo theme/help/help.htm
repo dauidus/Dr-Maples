@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	
+	<title>Help. Bamboo - Website Template.</title>
+	
+	<style type="text/css">
+		@import url('css/help.css');
+	</style>
+	
+	<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.7.2.custom.min.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>Bamboo - Website Template</h1><br />
+			<p>Documentation by <a href="http://themeforest.net/user/ivanov">Alexandr Ivanov</a> v1.1</p>
+			<p>Created: 21 June 2010</p>
+			<p>Email: <a href="mailto:ivanov.kz@gmail.com">ivanov.kz@gmail.com</a></p>
+			
+		</div>
+		
+		<div class="content">
+		
+		
+			<h3><a href="#">1. Intro</a></h3>
+			<div>
+				<p>Thank you for purchasing my template.<br/> 
+				If you have any questions that are beyond the scope of this help file, please feel free to email via <a href="http://themeforest.net/user/ivanov">my user page contact form here</a>. <br/>
+				Thanks so much!</p>
+			</div>
+			
+			
+			
+			<h3><a href="#">2. HTML Structure</a></h3>
+			<div>
+				<p><p>This theme is a fixed layout. Some pages, like "about.html" and "blog.html" with two columns, single text page "fullwidth.html" with 1&nbsp;wide column.   The general template structure is the same throughout the template. Here is the general structure:</p>
+						
+						
+						
+<pre>
+&lt;!--Header--&gt;
+&lt;div id="header"&gt;
+  Logo, slogan, rss-link, search form go here
+  
+  &lt;!--Navigation--&gt;
+  &lt;div id="nav"&gt;
+    Navigation goes here
+  &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;!--End Header--&gt;
+
+&lt;!--Content--&gt;
+&lt;div id="content"&gt;
+  Content goes here
+&lt;/div&gt;
+
+&lt;!--Footer--&gt;
+&lt;div id="footer"&gt;
+  Footer goes here
+&lt;/div&gt;
+</pre><br><br>
+
+
+Two columns pages (about.html, blog.html)<br>
+
+<pre>
+&lt;!--Content left part--&gt;
+&lt;div id="content_left"&gt;
+  Content goes here
+&lt;/div&gt;
+
+&lt;!--Content right part--&gt;
+&lt;div id="content_right"&gt;
+  Sidebar content goes here
+&lt;/div&gt;
+			</pre>
+				
+				</p>
+			</div>
+			
+			
+			
+			<h3><a href="#">3. CSS Files and Structure</a></h3>
+			<div>
+				<p>
+<p>The first one is a general style file <b>Styles.css</b><br>
+and there are 11 CSS files in the folder CSS - it's for color schemes.</p>  
+
+		<p>The general file contains all of the specific stylings for the page. The file is separated into sections using:</p> 
+		
+<pre>	
+/* =========== Header =========== */
+some code
+/* =========== End Header =========== */
+
+
+/* =========== Navigation =========== */
+some code
+/* =========== End navigation =========== */
+
+
+/* =========== Footer =========== */
+some code
+/* =========== End Footer =========== */
+
+
+/* =========== Index Articles =========== */
+some code
+/* =========== End Index Articles =========== */
+
+some code
+	
+etc, etc. 
+</pre><br/>
+		
+		<p>If you would like to change the color scheme of website, find this code in your HTML file's head:</p>
+		
+<pre>
+&lt;!--CSS Color Scheme--&gt;
+&lt;link rel="stylesheet" href="css/bamboo.css" type="text/css" media="screen" /&gt;
+</pre>
+
+		
+		And replace <i>"css/bamboo.css"</i> to another CSS file, for example to the <i>"css/blue.css"</i> or <i>"css/black.css"</i>. 
+		<br><br>
+		
+		
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+		
+		
+		
+		<p>If you would like to edit the color, font, or style of any elements in one of these columns, you would do the following:</p>
+
+<pre>	
+#footer a {
+  color: #someColor;
+} 
+</pre>
+				</p>
+			</div>
+			
+			<h3><a href="#">4. JavaScript</a></h3>
+			<div>
+				<p>This theme imports some Javascript files. They are in the folder named "js".</p>
+						
+						<ol>
+							<li><b>jQuery</b><br>
+							jQuery is a Javascript library that greatly reduces the amount of code that you must write.<br>
+							<a href="http://jquery.com/">About jQuery</a>
+							<br><br>
+							</li>
+							<li><b>Typeface</b><br>
+							With typeface.js you can embed custom fonts in your web pages so you don't have to render text to images.</a><br>
+							<a href="http://typeface.neocracy.org/">More information about using Typefase</a><br /><br />
+				
+				
+				
+							</li>
+							<li><b>Portfolio zoom icon effect</b><br>
+							Very simple script in the folder <i>js/zoom/</i><br /><br />
+							</li>
+							<li><b>Superfish Dropdown menu</b><br>
+							Superfish is a nice jQuery plugin that takes an existing pure CSS drop-down menu.<br>
+							<a href="http://users.tpg.com.au/j_birch/plugins/superfish/">More information about Superfish</a><br><br>
+							</li>
+							<li><b>Fancybox (for Portfolio page)</b><br>
+							FancyBox is a tool for displaying images, html content and multi-media in a Mac-style "lightbox" that floats overtop of web page.<br>
+							<a href="http://fancybox.net/">More about Fancybox</a>
+							<br><br>
+							</li>
+							<li><b>Contact form</b><br>
+							In this theme I use <a href="http://www.bitrepository.com/a-simple-ajax-contact-form-with-php-validation.html">A simple AJAX Contact Form with JQuery and PHP Validation</a> <br><br>
+							</li>
+							<li><b>PNG fix for IE 6</b><br>
+							<a href="http://www.dillerdesign.com/experiment/DD_belatedPNG/">
+							More information about this script</a><br><br>
+							</li>
+							<li><b>Easyslider</b><br>
+							<a href="http://cssglobe.com/post/5780/easy-slider-17-numeric-navigation-jquery-slider">More informations</a> about options of this slider
+							<br><br>
+							</li>
+							<li><b>Nivo Slider</b><br>
+							<a href="http://nivo.dev7studios.com/">More informations</a> about options of this slider
+							<br><br>
+							</li>
+							<li><b>Coin Slider</b><br>
+							<a href="http://workshop.rs/projects/coin-slider/">More informations</a> about options of this slider
+							<br><br>
+							</li>
+						</ol>
+			</div>
+			
+			<h3><a href="#">5. PSD File. PNG files</a></h3>
+			<div>
+				<p>
+				I've included 1 psd-file with this theme. I've used foldered structure and named all layers and folders to easily read and edit the template.<br>
+				Also I've included 6 big PNG SPA-icons. Use it as you like without restrictions. 
+				</p>
+			</div>
+			
+			<h3><a href="#">6. Sources and Credits</a></h3>
+			<div>
+				<p>
+				All images, icons and backgrounds I've used in this template - are my own creation.
+				</p>
+			</div>
+			
+			
+			<h3><a href="#">7. Contact form</a></h3>
+			<div>
+				<p>
+				Paste your e-mail to the file: js/contact/config.php<br>
+				Make some correction in the file: js/contact/contact.js. Paste the absolute link to the file	js/contact/contact.php
+				and form should work.				</p>
+			</div>
+			
+			
+			<h3><a href="#">8. Outro</a></h3>
+			<div>
+				<p>
+				Once again, thank you so much for purchasing this theme. <br/>As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. <br/>I'll do my best to assist.
+				<br/><br/>
+				<b>Alexandr Ivanov</b>
+				</p>
+			</div>
+		</div>
+		
+		<div class="footer">
+		
+		</div>
+	</div>
+</body>
+</html>

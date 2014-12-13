@@ -1,0 +1,71 @@
+/* == Backgrounds == */
+body {
+	background: url(../images/black/mainbg.jpg);
+}
+#main_top {
+	background: url(../images/black/bodybg.jpg) repeat-x;
+}
+#header {
+	background: url(../images/black/maintopbg.png) no-repeat;
+}
+#footer {
+	background: url(../images/black/mainbotbg.png) no-repeat;
+}
+#content {
+	background: url(../images/black/mainmidbg.png) repeat-y;
+}
+#index_articles {
+	background: url(../images/black/slider_post.jpg) no-repeat;
+}	
+#showcase{
+	background: url(../images/black/sliderbg.jpg) repeat-x;
+}	
+
+
+/* == Icons and buttons == */
+.bu {
+	background: url(../images/black/ic_search.gif) no-repeat;
+}
+.rss {
+	background: url(../images/black/ic_rss.gif) no-repeat;
+}
+#prevBtn a, #nextBtn a{  
+	background:url(../images/black/btn_prev.png) no-repeat 0 0;	
+}	
+#nextBtn a{ 
+	background:url(../images/black/btn_next.png) no-repeat 0 0;	
+}
+
+
+/* == Navigation == */
+.sf-menu a {
+	color: #ccc;
+	background: #5f5f5f;
+}
+.sf-menu a:hover, .sf-menu li.current_page_item a, .sf-menu li.current-cat a, .sf-menu li li a {
+	background: #444;
+	color: #ccc;
+}
+.sf-menu li li a:hover {
+	background: #333;
+}
+
+
+
+/* == Footer == */
+#footer, #copyright, #powered {
+	color: #555;
+}
+#footer a, #powered a {
+	color: #777;
+}
+
+
+
+
+a {
+	color: #888;
+}
+#biglinks li.current_page_item li a {
+    color: #888;
+}
